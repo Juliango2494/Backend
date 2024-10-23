@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center  ;
+}
+.openSans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+header{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  width: 50%;
+  border-radius: 20px;
+  margin-left: 400px;
+  padding: 10px;
+  border: 2px black solid;
+  box-shadow: 2px 2px 20px rgb(0, 0, 0);
+  flex-direction: row;
+  background-color: rgba(250, 250, 250, 0.85);
+  justify-content: center;
+  font-variation-settings:
+    "wdth" 100;
+    padding: 5px;
+    display: flex;
+}
+nav{
+  display:flex;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  border-radius: 10px;
+  width: 30%;
+  margin-left: 550px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px black solid;
+  flex-direction: row;
+  background-color: rgba(138, 138, 138, 0.85);
+  justify-content: space-around;
+  box-shadow: 2px 2px 20px rgb(0, 0, 0);
+  font-variation-settings:
+    "wdth" 100;
+    flex-direction: row;
+    justify-content: center;
+}
+section{
+  display:flex;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  border-radius: 10px;
+  width: 30%;
+  margin-left: 550px;
+  margin-top: 10px;
+  padding: 25px;
+  border: 2px black solid;
+  box-shadow: 2px 2px 20px rgb(0, 0, 0);
+  flex-direction: column;
+  align-content: center;
+  background-color: rgba(240, 248, 255, 0.85);
+  font-variation-settings:
+    "wdth" 100;  
+    justify-content: center;
+    align-items: center;
+}
+footer{
+  display:flex;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+border-radius: 10px;
+width: 30%;
+margin-left: 550px;
+margin-top: 10px;
+padding: 10px;
+border: 2px black solid;
+box-shadow: 2px 2px 20px rgb(0, 0, 0);
+flex-direction: column;
+background-color: rgba(138, 138, 138, 0.85);
+font-variation-settings:
+  "wdth" 100; 
+}
+.margin{
+    padding: 10px;
+}
+.imgHeader{
+    height: 200px;
+}
+img{
+  width: 100%;;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px 20px 50px 50px;
+  background: url(../assets/images/quiensoy_background.jpg);
+  background-size: 100% auto;
+  height: 750px;
+ 
+}
+p{
+  text-align: justify;
+}
+.botones{
+  background-color: white;
+  padding: 5px;
+  color: black;
+  text-decoration: solid;
+  border: 1px black solid;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.botones:hover{
+  background-color: rgba(0, 0, 0, 0.644);
+  color: white;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box2 {
+  display: flex;
+  background-color: rgba(138, 138, 138, 0.85);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  margin: 4px 0 4px 0;
+  padding: 8px 8px 8px 8px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 2px black solid;
+  font-weight: bold;
+}
+.bot1 {
+  background-color: white;
+  padding: 4px;
+  color: black;
+  text-decoration: solid;
+  border: 1px black solid;
+}
+.mensaje{
+  font-weight: bold;
+  width: 300px;
+  margin: 4px 0 4px 0;
+  padding: 8px 8px 8px 8px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+.mensaje2{
+  font-size: 15px;
+}
+
+/*IDENTIFICADORES*/
+#imgYo{
+  width: 50%;
+}
+#txtYo{
+  width: 50%;
+  ;
+}
+#centro{
+  margin: 0 50px 0 50px;
+}
+#imgSoft{
+  width: 49%;
+  height: 250px;
+}
+#oculto{
+  color: rgba(250, 250, 250, 0.1);
+} 
+#botones{
+  color: black;
+  text-decoration:solid;
+  font-size: 18px;
+  font-weight: bold;
+}
+#foot{
+  font-size: 13px;
+  font-weight: bold;
+}
